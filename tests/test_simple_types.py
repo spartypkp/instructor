@@ -16,7 +16,7 @@ def test_enum_simple():
 def test_standard_types():
     for t in [str, int, float, bool]:
         assert is_simple_type(t), "Failed for type: " + str(t)
-
+ 
 
 def test_partial_not_simple():
     class SampleModel(BaseModel):
